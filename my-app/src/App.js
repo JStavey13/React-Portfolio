@@ -1,18 +1,11 @@
 import React from 'react';
-import './App.css';
-import Nav from './Components/nav';
-import Hero from './Components/hero';
-import 'bulma/css/bulma.min.css'
+// import logo from './logo.svg';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Nav />
-        <Hero />
-      </header>
-    </div>
-  );
-}
+
+import './App.css';
+import Container from './Components/container'
+
+
+const App = () => <Container />;
 
 export default App;

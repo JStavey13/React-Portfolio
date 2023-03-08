@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react';
+
 
 function Footer() {
-
-
-<footer class="footer">
-  <div class="content has-text-centered">
+    return (
+        <footer class="footer">
+  <div class="content has-text-centered" style={{ color: 'green', fontFamily: 'Arial', fontSize: '15px' }}>
     <p>
-      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      <strong>Portfolio</strong> by <a href="https://github.com/jstavey13">Jarrett Stavey</a>. The source code is licensed as:
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
+      designed using <a href='https://getbootstrap.com/'>bootstrap</a> and sourced on <a href='https://github.com/jstavey13/react-portfolio'>Github link</a>.
     </p>
   </div>
 </footer>
-}
+    )
+   };
 
-
-
-export default Footer
+  
+  export default Footer;

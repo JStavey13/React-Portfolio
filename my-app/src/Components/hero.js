@@ -1,21 +1,21 @@
 import React from "react";
 
-function Hero() {
+
+function Hero(){
     return(
-        <section class="hero">
+<section class="hero has-background-primary-light is-halfheight">
   <div class="hero-body">
-    <p class="title">
-      Jarret Stavey's Portfolio
-    </p>
-    <p class="subtitle">
-      Jarrett is a full stack web developer with a focus on Javascript and speaking in the third person. 
-      Here is a collection of some of the projects he has made, either for 
-      education, or for his own enjoyment.
-    </p>
+    <div class="">
+      <h1 class="title has-text-primary-dark	" >
+        Jarrett Stavey
+      </h1>
+      <p class="subtitle has-text-success-dark	">
+        your full stack web developer
+      </p>
+    </div>
   </div>
 </section>
-    )
-}
+    );
+};
 
-
-export default Hero
+export default Hero;
