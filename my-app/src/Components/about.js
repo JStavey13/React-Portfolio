@@ -9,7 +9,7 @@ export default function About() {
       <h1>About me</h1>
 
       <p>
-Jarrett Stavey is a full-stack web developer focusing on JavaScript and talking in the third-person.
+Jarrett Stavey is a full-stack web developer focusing on JavaScript, and talking in the third-person.
       </p>
     </div>
   );
