@@ -2,8 +2,9 @@
     {
         "id": 1,
         "title": "Gravado",
-        "image": "Gravado.jpeg",
-        "description": "Description 1"
+        "image": "gravado.jpeg",
+        "description": "Description 1",
+        "link": "https://github.com/ColeWaggoner/07-08-GravadoP1"
     },
     {
         "id": 2,
