@@ -13,8 +13,8 @@ function Portfolio() {
         {data.map((project, idx) => (
           <Col key={idx}>
     <Card className="bg-dark text-white" id='card'>
-      <Card.Img src={`public/assets/image/${project.image}`} alt="Card image" id="item-img" />
-      <Card.ImgOverlay class="image">
+      <Card.Img class="image" src={`public/assets/image/${project.image}`} alt="Card image" id="item-img" />
+      <Card.ImgOverlay >
         <Card.Title>{project.title}</Card.Title>
         <Card.Text>
           <p>
