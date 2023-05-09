@@ -2,6 +2,7 @@ import React  from 'react';
 import {Row, Col, Card} from 'react-bootstrap';
 import data from './portfolio.json';
 
+
 function Portfolio() {
 
   return (
@@ -13,7 +14,7 @@ function Portfolio() {
           <Col key={idx}>
     <Card className="bg-dark text-white" id='card'>
       <Card.Img src={`public/assets/image/${project.image}`} alt="Card image" id="item-img" />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay class="image">
         <Card.Title>{project.title}</Card.Title>
         <Card.Text>
           <p>

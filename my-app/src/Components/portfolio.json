@@ -3,21 +3,21 @@
         "id": 1,
         "title": "Gravado",
         "image": "gravado.jpeg",
-        "description": "Description 1",
+        "description": "Looking for a new restaurant or recipe? Gravado has you covered!",
         "link": "https://github.com/ColeWaggoner/07-08-GravadoP1"
     },
     {
         "id": 2,
         "title": "PandaCritic",
         "image": "pandacritic.jpeg",
-        "description": "Description 2",
+        "description": "Keep track of what foods you've tried, and find your new favorite spot.",
         "link": ""
     },
     {
         "id": 3,
         "title": "SubsTracker",
         "image": "substracker.jpeg",
-        "description": "Description 3",
+        "description": "Never lose track of your subscriptions, or your budget, again!",
         "link": ""
     }
 ]
