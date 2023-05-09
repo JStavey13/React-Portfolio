@@ -14,8 +14,8 @@ function Portfolio() {
           <Col key={idx}>
     <Card className="bg-dark text-white" id='card'>
       <Card.Img class="image" src={`public/assets/image/${project.image}`} alt="Card image" id="item-img" />
-      <Card.ImgOverlay >
-        <Card.Title>{project.title}</Card.Title>
+      <Card.ImgOverlay class="card-overlay">
+        <a href={project.link}><Card.Title>{project.title}</Card.Title></a>
         <Card.Text>
           <p>
           {project.description}

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav({ thisPage, tabChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs bg-dark">
       <li className="nav-item">
         <a
           href="#about"
