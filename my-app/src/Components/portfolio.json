@@ -11,13 +11,13 @@
         "title": "PandaCritic",
         "image": "pandacritic.jpeg",
         "description": "Keep track of what foods you've tried, and find your new favorite spot.",
-        "link": ""
+        "link": "https://github.com/JStavey13/PandaCritic"
     },
     {
         "id": 3,
         "title": "SubsTracker",
         "image": "substracker.jpeg",
         "description": "Never lose track of your subscriptions, or your budget, again!",
-        "link": ""
+        "link": "https://github.com/tanglero4/Subs-Tracker"
     }
 ]
