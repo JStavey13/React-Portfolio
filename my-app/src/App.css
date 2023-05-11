@@ -6,7 +6,10 @@
   height: 80px
 }
 
-
+.logo {
+  height: 60px;
+  margin-left: 20px;
+}
 
 .image {
   height: 275px;

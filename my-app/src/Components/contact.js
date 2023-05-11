@@ -48,7 +48,12 @@ export default function Contact() {
         {status}
       </Button>
     </Form>
-    <p style={{fontSize:"30px"}}>Email me directly at <a href="mailto:jstavey13@icloud.com">jstavey13@icloud.com</a></p>
+    <p style={{fontSize:"30px", marginTop:"20px"}}>Email me directly at <a href="mailto:jstavey13@icloud.com">jstavey13@icloud.com</a></p>
+    <p style={{fontSize:"30px", marginTop:"20px"}}>Or Visit My Socials: 
+    <a href="https://www.linkedin.com/in/jarrett-stavey-aa9b0315a/"><img src="public/assets/image/linkedinlogo.png" alt='linkedin logo' class="logo"></img></a> 
+    <a href="https://github.com/JStavey13"><img src="public/assets/image/GitHub-Logo.png" alt='linkedin logo' class="logo"></img></a>
+    
+     </p>
     </div>
   );
 }
