@@ -21,6 +21,8 @@ const contactEmail = nodemailer.createTransport({
       user: "jstavey13@yahoo.com",
       pass: "xptciywqvoarlfbm",
     },
+    debug: false,
+    logger: true
   });
   
   contactEmail.verify((error) => {

@@ -27,17 +27,9 @@ export default function Contact() {
     alert(result.status)
   }
 
-
-
-
-
-
-
-
-
   return (
     <div>
-      <h1>Contact</h1>
+      <h1>Contact (under construction)</h1>
 
     <Form onSubmit={handleSubmit}>
     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -56,6 +48,7 @@ export default function Contact() {
         {status}
       </Button>
     </Form>
+    <p style={{fontSize:"30px"}}>Email me directly at <a href="mailto:jstavey13@icloud.com">jstavey13@icloud.com</a></p>
     </div>
   );
 }
