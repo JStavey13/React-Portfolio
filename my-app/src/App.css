@@ -41,11 +41,30 @@
   color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.download-btn {
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.header_btns {
+  text-align: center;
+}
+
+#resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: blue;
 }
