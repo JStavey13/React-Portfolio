@@ -7,7 +7,7 @@ import bootcampDownload from "../image/bootcampCert.pdf"
 export default function Resume() {
 
     return (
-        <div className="display">
+        <div>
 {/* resume header */}
             <h1 style={{
                 marginTop: "40px",

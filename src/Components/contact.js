@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button';
 
 
 export default function Contact() {
+
+// contact form logic
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,6 +29,7 @@ export default function Contact() {
     alert(result.status)
   }
 
+// form HTML 
   return (
     <div>
       <h1>Contact (under construction)</h1>
