@@ -1,5 +1,7 @@
 import resume from "../image/resume.jpg"
 import resumeDownload from "../image/Resume.pdf"
+import bootcampCert from "../image/bootcampCert.jpg"
+import bootcampDownload from "../image/bootcampCert.pdf"
 
 
 export default function Resume() {
@@ -46,13 +48,24 @@ export default function Resume() {
                 textAlign: "center",
             }}>
                 Bootcamp Certificate
+
+{/* bootcamp cert download button */}
                 <p>
-                    <a href="././public/assets/image/bootcampCert.pdf" className="download-btn" download>Download</a>
+                    <a href={bootcampDownload} className="download-btn" download>Download</a>
                 </p>
             </h1>
-            <img src="././public/assets/image/bootcampCert.jpg"
+{/* bootcamp cert pic */}
+            <img src={bootcampCert}
                 alt="resume"
-                id="resume"
+                style={{
+                    display: "block",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                    outlineStyle: "solid",
+                    borderRadius: "40px",
+                    width: "55%",
+                    marginBottom: "15px"
+                }}
             ></img>
 
         </div>
