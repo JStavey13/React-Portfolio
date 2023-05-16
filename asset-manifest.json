@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/my-app/public/static/css/main.21201942.css",
-    "main.js": "/react-portfolio/my-app/public/static/js/main.2e043715.js",
-    "static/media/mountain-background.jpg": "/react-portfolio/my-app/public/static/media/mountain-background.7662e1cea4d50dd96276.jpg",
-    "index.html": "/react-portfolio/my-app/public/index.html",
-    "main.21201942.css.map": "/react-portfolio/my-app/public/static/css/main.21201942.css.map",
-    "main.2e043715.js.map": "/react-portfolio/my-app/public/static/js/main.2e043715.js.map"
+    "main.css": "/React-Portfolio/static/css/main.9ee6b423.css",
+    "main.js": "/React-Portfolio/static/js/main.2e043715.js",
+    "static/media/mountain-background.jpg": "/React-Portfolio/static/media/mountain-background.7662e1cea4d50dd96276.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.9ee6b423.css.map": "/React-Portfolio/static/css/main.9ee6b423.css.map",
+    "main.2e043715.js.map": "/React-Portfolio/static/js/main.2e043715.js.map"
   },
   "entrypoints": [
-    "static/css/main.21201942.css",
+    "static/css/main.9ee6b423.css",
     "static/js/main.2e043715.js"
   ]
 }
