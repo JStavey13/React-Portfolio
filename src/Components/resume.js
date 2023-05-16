@@ -10,12 +10,16 @@ export default function Resume() {
         <div>
 {/* resume header */}
             <h1 style={{
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
                 marginTop: "40px",
                 outlineStyle: "solid",
                 backgroundColor: "white",
                 borderRadius: "10px",
                 padding: "10px",
                 textAlign: "center",
+                width: "20%",
             }}>
                 Resume
 {/* resume download button */}
@@ -40,12 +44,16 @@ export default function Resume() {
 
 {/* bootcamp cert header */}
             <h1 style={{
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
                 marginTop: "40px",
                 outlineStyle: "solid",
                 backgroundColor: "white",
                 borderRadius: "10px",
                 padding: "10px",
                 textAlign: "center",
+                width: "30%"
             }}>
                 Bootcamp Certificate
 
