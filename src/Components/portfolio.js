@@ -9,7 +9,14 @@ function Portfolio() {
 
 
   <section id='entries'>
-    <Row xs={1} md={2} className="g-4">
+    <Row xs={1} md={2} className="g-4"
+    style={{
+      marginBottom: "80px",
+      marginTop: "10px",
+      width: "95%",
+      marginLeft: "auto",
+      marginRight: "auto"
+    }}>
         {data.map((project, idx) => (
           <Col key={idx}>
     <Card className="bg-dark text-white" id='card'>

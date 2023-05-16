@@ -91,7 +91,7 @@ export default function Contact() {
         textShadow: "1px 1px 1px gray, 2px 2px 1px white",
         textAlign: "center"
       }}>
-      Or Visit My Socials:
+        Or Visit My Socials:
         {/* lindedin link and pic */}
         <a href="https://www.linkedin.com/in/jarrett-stavey-aa9b0315a/">
           <img src={linkedinLogo} alt='LinkedIn Logo' class="logo"></img>
@@ -100,8 +100,29 @@ export default function Contact() {
         <a href="https://github.com/JStavey13">
           <img src={githubLogo} alt='GitHub Logo' class="logo"></img>
         </a>
-
       </p>
+
+
+      {/* <footer 
+        style={{
+          position: "absolute",
+          bottom: "0",
+          
+          backgroundColor: 'black'
+
+
+        }}
+          class="footer">
+  <div class="content has-text-centered" style={{ color: 'green', fontSize: '15px' }}>
+    <p class="footer-text">
+      <strong>Portfolio</strong> by <a href="https://github.com/jstavey13">Jarrett Stavey</a>. The source code is licensed as:
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
+      designed using <a href='https://getbootstrap.com/'>Bootstrap</a> and sourced on <a href='https://github.com/jstavey13/react-portfolio'>Github</a>.
+    </p>
+  </div>
+</footer> */}
+
     </div>
+    
   );
 }

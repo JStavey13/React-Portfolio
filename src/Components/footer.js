@@ -3,7 +3,17 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer class="footer">
+        <footer 
+        style={{
+          position: "fixed",
+          bottom: "0",
+          width: "100%",
+          
+          backgroundColor: 'black'
+
+
+        }}
+          class="footer">
   <div class="content has-text-centered" style={{ color: 'green', fontSize: '15px' }}>
     <p class="footer-text">
       <strong>Portfolio</strong> by <a href="https://github.com/jstavey13">Jarrett Stavey</a>. The source code is licensed as:

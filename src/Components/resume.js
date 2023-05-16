@@ -72,9 +72,11 @@ export default function Resume() {
                     outlineStyle: "solid",
                     borderRadius: "40px",
                     width: "55%",
-                    marginBottom: "15px"
+                    marginBottom: "80px"
                 }}
             ></img>
+
+            
 
         </div>
     )
