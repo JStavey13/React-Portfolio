@@ -102,26 +102,6 @@ export default function Contact() {
         </a>
       </p>
 
-
-      {/* <footer 
-        style={{
-          position: "absolute",
-          bottom: "0",
-          
-          backgroundColor: 'black'
-
-
-        }}
-          class="footer">
-  <div class="content has-text-centered" style={{ color: 'green', fontSize: '15px' }}>
-    <p class="footer-text">
-      <strong>Portfolio</strong> by <a href="https://github.com/jstavey13">Jarrett Stavey</a>. The source code is licensed as:
-      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
-      designed using <a href='https://getbootstrap.com/'>Bootstrap</a> and sourced on <a href='https://github.com/jstavey13/react-portfolio'>Github</a>.
-    </p>
-  </div>
-</footer> */}
-
     </div>
     
   );
