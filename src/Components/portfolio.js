@@ -2,8 +2,8 @@ import gravado from "../image/Gravado.jpeg"
 import PandaCritic from "../image/PandaCritic.jpeg"
 import SubsTracker from "../image/substracker.jpeg"
 import React  from 'react';
-import {Row, Col, Card} from 'react-bootstrap';
-import data from './portfolio.json';
+import {Row, Card} from 'react-bootstrap';
+
 
 
 function Portfolio() {
@@ -22,7 +22,7 @@ function Portfolio() {
     }}>
     <div class="col">    
     <Card className="bg-dark text-white" id='card'>
-      <img class="image" src={gravado} alt="project" id="item-img" ></img>
+      <img class="image" src={gravado} alt="Gravado screenshot" id="item-img" ></img>
       <Card.ImgOverlay class="card-overlay">
         <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title>Gravado</Card.Title></a>
         <Card.Text>
@@ -36,12 +36,12 @@ function Portfolio() {
 
     <div class="col">
     <Card className="bg-dark text-white" id='card'>
-      <img class="image" src={PandaCritic} alt="project" id="item-img" ></img>
+      <img class="image" src={PandaCritic} alt="PandaCritic screenshot" id="item-img" ></img>
       <Card.ImgOverlay class="card-overlay">
-        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title>Gravado</Card.Title></a>
+        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title>PandaCritic</Card.Title></a>
         <Card.Text>
           <p>
-          Looking for a new restaurant or recipe? Gravado has you covered!
+          Keep track of what foods you've tried, and find your new favorite spot.
           </p>
         </Card.Text>
       </Card.ImgOverlay>
@@ -62,10 +62,10 @@ function Portfolio() {
     <Card className="bg-dark text-white" id='card'>
       <img class="image" src={SubsTracker} alt="project" id="item-img" ></img>
       <Card.ImgOverlay class="card-overlay">
-        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title>Gravado</Card.Title></a>
+        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title>SubsTracker</Card.Title></a>
         <Card.Text>
           <p>
-          Looking for a new restaurant or recipe? Gravado has you covered!
+          Never lose track of your subscriptions, or your budget, again!
           </p>
         </Card.Text>
       </Card.ImgOverlay>
