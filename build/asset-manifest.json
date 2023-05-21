@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.0a32ce16.css",
-    "main.js": "/React-Portfolio/static/js/main.11467cd3.js",
+    "main.css": "/React-Portfolio/static/css/main.1d800fa3.css",
+    "main.js": "/React-Portfolio/static/js/main.5e6e5a93.js",
     "static/media/mountain-background.jpg": "/React-Portfolio/static/media/mountain-background.7662e1cea4d50dd96276.jpg",
     "static/media/bootcampCert.pdf": "/React-Portfolio/static/media/bootcampCert.c30b1d2181946319d91d.pdf",
+    "static/media/PandaCritic.jpeg": "/React-Portfolio/static/media/PandaCritic.da8987492efeb2e9882d.jpeg",
+    "static/media/Gravado.jpeg": "/React-Portfolio/static/media/Gravado.6c0d486666b133cfcc73.jpeg",
     "static/media/resume.jpg": "/React-Portfolio/static/media/resume.7e8ce085412221d456b2.jpg",
     "static/media/bootcampCert.jpg": "/React-Portfolio/static/media/bootcampCert.1b3d185cc01f0e4471d0.jpg",
+    "static/media/substracker.jpeg": "/React-Portfolio/static/media/substracker.f8c7565d0634f6194e37.jpeg",
     "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.0a89e1d2b74d28bb1286.pdf",
     "static/media/GitHub-Logo.png": "/React-Portfolio/static/media/GitHub-Logo.05525cd9027955dbe054.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.0a32ce16.css.map": "/React-Portfolio/static/css/main.0a32ce16.css.map",
-    "main.11467cd3.js.map": "/React-Portfolio/static/js/main.11467cd3.js.map"
+    "main.1d800fa3.css.map": "/React-Portfolio/static/css/main.1d800fa3.css.map",
+    "main.5e6e5a93.js.map": "/React-Portfolio/static/js/main.5e6e5a93.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a32ce16.css",
-    "static/js/main.11467cd3.js"
+    "static/css/main.1d800fa3.css",
+    "static/js/main.5e6e5a93.js"
   ]
 }
