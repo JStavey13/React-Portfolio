@@ -6,7 +6,9 @@ export default function About() {
 
   return (
     <div>
-      <h1>{`Hey, I'm `} 
+      <h1 style={{
+        textAlign: "center",
+      }}>{`Hey, I'm `} 
         <strong style={{
         fontSize: "40px",
         marginTop: "20px",
@@ -20,7 +22,8 @@ export default function About() {
       <p style={{
         fontSize: "20px",
         textShadow: "1px 1px 1px gray",
-        fontWeight: "bold"
+        fontWeight: "bold",
+        textAlign: "center"
       }}>
 A full-stack Javascript web developer, and full-time nerd. I'm on a journey to build cool things and master my craft.
       </p>
