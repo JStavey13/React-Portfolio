@@ -21,11 +21,17 @@ function Portfolio() {
       marginRight: "auto"
     }}>
     <div class="col">    
-    <Card className="bg-dark text-white" id='card'>
+    <Card className="bg-dark text-white" id='card' style={{
+      borderRadius: "15px"
+    }}>
       <img class="image" src={gravado} alt="Gravado screenshot" id="item-img" ></img>
       <Card.ImgOverlay class="card-overlay">
-        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title>Gravado</Card.Title></a>
-        <Card.Text>
+        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title style={{
+      marginLeft: "10px"
+    }}>Gravado</Card.Title></a>
+        <Card.Text style={{
+      marginLeft: "10px"
+    }}>
           <p>
           Looking for a new restaurant or recipe? Gravado has you covered!
           </p>
@@ -35,11 +41,17 @@ function Portfolio() {
     </div>
 
     <div class="col">
-    <Card className="bg-dark text-white" id='card'>
+    <Card className="bg-dark text-white" id='card' style={{
+      borderRadius: "15px"
+    }}>
       <img class="image" src={PandaCritic} alt="PandaCritic screenshot" id="item-img" ></img>
       <Card.ImgOverlay class="card-overlay">
-        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title>PandaCritic</Card.Title></a>
-        <Card.Text>
+        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title style={{
+      marginLeft: "10px"
+    }}>PandaCritic</Card.Title></a>
+        <Card.Text style={{
+      marginLeft: "10px"
+    }}>
           <p>
           Keep track of what foods you've tried, and find your new favorite spot.
           </p>
@@ -59,11 +71,17 @@ function Portfolio() {
       marginRight: "auto"
     }}>
       <div class="col">
-    <Card className="bg-dark text-white" id='card'>
+    <Card className="bg-dark text-white" id='card'style={{
+      borderRadius: "15px"
+    }}>
       <img class="image" src={SubsTracker} alt="project" id="item-img" ></img>
       <Card.ImgOverlay class="card-overlay">
-        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title>SubsTracker</Card.Title></a>
-        <Card.Text>
+        <a href="https://github.com/ColeWaggoner/07-08-GravadoP1"><Card.Title style={{
+      marginLeft: "10px"
+    }}>SubsTracker</Card.Title></a>
+        <Card.Text style={{
+      marginLeft: "10px"
+    }}>
           <p>
           Never lose track of your subscriptions, or your budget, again!
           </p>

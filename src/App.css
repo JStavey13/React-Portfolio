@@ -5,7 +5,7 @@
 }
 
 .card-overlay {
-  height: 80px
+  height: 80px;
 }
 
 .logo {
@@ -15,6 +15,7 @@
 
 .image {
   height: 275px;
+  border-radius: 15px;
 }
 
 .App-logo {

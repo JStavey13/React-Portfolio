@@ -21,12 +21,20 @@ export default function About() {
 
       <p style={{
         fontSize: "20px",
-        textShadow: "1px 1px 1px gray",
+        textShadow: "1px 1px 1px white",
         fontWeight: "bold",
         textAlign: "center"
       }}>
 A full-stack Javascript web developer, and full-time nerd. I'm on a journey to build cool things and master my craft.
       </p>
+
+
+
+
+
+      
     </div>
+
+
   );
 }
