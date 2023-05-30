@@ -2,12 +2,12 @@ import React from 'react';
 
 function Nav({ thisPage, tabChange }) {
   return (
-    <ul className="nav nav-tabs bg-dark">
+    <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
           href="#about"
           onClick={() => tabChange('about')}
-          className={thisPage === 'about' ? 'nav-link active' : 'nav-link'}
+          className={thisPage === 'about' ? 'nav-link active' : 'nav-link text-dark'}
         >
           about
         </a>
@@ -16,7 +16,7 @@ function Nav({ thisPage, tabChange }) {
         <a
           href="#portfolio"
           onClick={() => tabChange('portfolio')}
-          className={thisPage === 'portfolio' ? 'nav-link active' : 'nav-link'}
+          className={thisPage === 'portfolio' ? 'nav-link active' : 'nav-link text-dark'}
         >
           Portfolio
         </a>
@@ -26,7 +26,7 @@ function Nav({ thisPage, tabChange }) {
         <a
           href="#contact"
           onClick={() => tabChange('contact')}
-          className={thisPage === 'contact' ? 'nav-link active' : 'nav-link'}
+          className={thisPage === 'contact' ? 'nav-link active' : 'nav-link text-dark'}
         >
           Contact
         </a>
@@ -35,7 +35,7 @@ function Nav({ thisPage, tabChange }) {
         <a
           href="#resume"
           onClick={() => tabChange('resume')}
-          className={thisPage === 'resume' ? 'nav-link active' : 'nav-link'}
+          className={thisPage === 'resume' ? 'nav-link active' : 'nav-link text-dark'}
         >
           Resume
         </a>

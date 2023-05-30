@@ -87,3 +87,11 @@
 #card {
   margin: 20px;
 }
+
+.nav {
+  background-color: #a6aeba;
+}
+
+.nav-link {
+  color: black;
+}
