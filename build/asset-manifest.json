@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.61d0df76.css",
-    "main.js": "/static/js/main.eda6b9f3.js",
+    "main.css": "/static/css/main.58c454f0.css",
+    "main.js": "/static/js/main.f1dc11e2.js",
     "static/media/mountain-background.jpg": "/static/media/mountain-background.7662e1cea4d50dd96276.jpg",
     "static/media/bootcampCert.pdf": "/static/media/bootcampCert.c30b1d2181946319d91d.pdf",
     "static/media/PandaCritic.jpeg": "/static/media/PandaCritic.da8987492efeb2e9882d.jpeg",
+    "static/media/profile round.jpg": "/static/media/profile round.b9ac1742ae888a36b980.jpg",
     "static/media/Gravado.jpeg": "/static/media/Gravado.6c0d486666b133cfcc73.jpeg",
     "static/media/resume.jpg": "/static/media/resume.7e8ce085412221d456b2.jpg",
     "static/media/bootcampCert.jpg": "/static/media/bootcampCert.1b3d185cc01f0e4471d0.jpg",
@@ -12,11 +13,11 @@
     "static/media/Resume.pdf": "/static/media/Resume.0a89e1d2b74d28bb1286.pdf",
     "static/media/GitHub-Logo.png": "/static/media/GitHub-Logo.05525cd9027955dbe054.png",
     "index.html": "/index.html",
-    "main.61d0df76.css.map": "/static/css/main.61d0df76.css.map",
-    "main.eda6b9f3.js.map": "/static/js/main.eda6b9f3.js.map"
+    "main.58c454f0.css.map": "/static/css/main.58c454f0.css.map",
+    "main.f1dc11e2.js.map": "/static/js/main.f1dc11e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.61d0df76.css",
-    "static/js/main.eda6b9f3.js"
+    "static/css/main.58c454f0.css",
+    "static/js/main.f1dc11e2.js"
   ]
 }
