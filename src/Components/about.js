@@ -1,4 +1,5 @@
 import React from 'react';
+import Me from '../image/profile round.jpg'
 
 
 
@@ -27,7 +28,18 @@ export default function About() {
       }}>
 A full-stack Javascript web developer, and full-time nerd. I'm on a journey to build cool things and master my craft.
       </p>
-
+      <img src={Me}
+                alt="Jarrett Stavey"
+                style={{
+                    display: "block",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                    outlineStyle: "solid",
+                    borderRadius: "100%",
+                    width: "250px",
+                    height: "250px"
+                }}
+            ></img>
 
 
 
