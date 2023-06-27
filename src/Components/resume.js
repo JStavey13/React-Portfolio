@@ -1,4 +1,4 @@
-import resume from "../image/resume.jpg"
+import resume from "../image/Resume.jpg"
 import resumeDownload from "../image/Resume.pdf"
 import bootcampCert from "../image/bootcampCert.jpg"
 import bootcampDownload from "../image/bootcampCert.pdf"
